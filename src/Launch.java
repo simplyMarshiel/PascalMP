@@ -37,13 +37,18 @@ public class Launch {
 
             ParseTree tree = parser.program();
 
+
             PascalGrammarBaseVisitor visitor = new PascalGrammarBaseVisitor();
             visitor.visit(tree);
 
+            //do something about this, ^ this is the AST
+
+            // made it to string
             List ruleNames = new ArrayList();
             Collections.addAll(ruleNames, parser.getRuleNames());
             String sParseTree = ((PascalGrammarParser.ProgramContext) tree).toStringTree(ruleNames);
             System.out.println(sParseTree);
+
         }catch(IOException e){
             e.printStackTrace();
         }

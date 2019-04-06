@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d04457ab-999e-4444-bca8-becb795430d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PascalGrammar.g4" beforeDir="false" afterPath="$PROJECT_DIR$/PascalGrammar.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AntlrErrorListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AntlrErrorListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MP/Launch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MP/Launch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Launch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Launch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyVisitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PascalGrammar.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalGrammar.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PascalGrammarBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalGrammarBaseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PascalGrammarBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalGrammarBaseVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PascalGrammarLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalGrammarLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PascalGrammarListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalGrammarListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PascalGrammarParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalGrammarParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PascalGrammarVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PascalGrammarVisitor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PascalGrammar.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="130" column="14" lean-forward="true" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
+            <state relative-caret-position="51">
+              <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -36,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Launch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+            <state relative-caret-position="120">
+              <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,36 +41,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PascalGrammarParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="88" column="42" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AntlrErrorListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-              <folding>
-                <element signature="e#1948#1949#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PascalGrammarBaseVisitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2687">
-              <caret line="693" column="6" selection-start-line="693" selection-start-column="6" selection-end-line="693" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -113,8 +74,9 @@
       <find>identifier</find>
       <find>type</find>
       <find>stringtype</find>
-      <find>typeIdentifier</find>
+      <find>\bvisit\b</find>
       <find>rulenames</find>
+      <find>typeIdentifier</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -134,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="950" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -175,7 +137,7 @@
     <property name="$PROJECT_DIR$/PascalGrammar.g4::/output-dir" value="D:\DLSU\TERM 2 2018-2019\CMPILER\PascalMP\src" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554535620523" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554541947696" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -228,12 +190,12 @@
       <workItem from="1554359538951" duration="156000" />
       <workItem from="1554431802018" duration="240000" />
       <workItem from="1554529163717" duration="1059000" />
-      <workItem from="1554530244709" duration="4893000" />
+      <workItem from="1554530244709" duration="9234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16323000" />
+    <option name="totallyTimeSpent" value="20664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -248,7 +210,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49798658" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798658" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731544" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -256,10 +218,10 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Tool Output" order="9" sideWeight="0.49932885" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50201344" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026846" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="13" sideWeight="0.6751678" weight="0.3286119" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="13" sideWeight="0.67449665" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4986577" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -300,6 +262,16 @@
     <entry file="jar://C:/Program Files/Java/antlr-4.7.1-complete.jar!/org/antlr/v4/runtime/CharStreams.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PascalGrammarBaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2312">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AntlrErrorListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -310,10 +282,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PascalGrammar.g4">
+    <entry file="file://$PROJECT_DIR$/src/PascalGrammarBaseVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="130" column="14" lean-forward="true" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
+        <state relative-caret-position="-2924">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PascalGrammarParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="86" column="10" lean-forward="true" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -324,24 +303,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PascalGrammarBaseVisitor.java">
+    <entry file="file://$PROJECT_DIR$/PascalGrammar.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2687">
-          <caret line="693" column="6" selection-start-line="693" selection-start-column="6" selection-end-line="693" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PascalGrammarParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="88" column="42" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="42" />
+        <state relative-caret-position="51">
+          <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Launch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        <state relative-caret-position="120">
+          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
