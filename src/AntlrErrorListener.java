@@ -43,6 +43,13 @@ public class AntlrErrorListener implements ANTLRErrorListener{
 			msg = err[err.length - 1] + " token is not allowed.";
 		}
 
+		else if(msg.contains("mismatched input")){
+			int trimlen = "mismatched input".length();
+			msg = msg.substring(trimlen, msg.length());
+			String[] x = msg.split("'");
+			msg = "mismatched input '" + x[1] + "'";
+		}
+
 		System.err.println("ERROR: at line " + line + ":"+charPositionInLine+" "+msg);
 	    errorMsg = errorMsg + "\n" + sourceName+"line "+line+":"+charPositionInLine+" "+msg;
 	}

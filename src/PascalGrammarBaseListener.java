@@ -1,4 +1,4 @@
-// Generated from D:/DLSU/TERM 2 2018-2019/CMPILER/MP\PascalGrammar.g4 by ANTLR 4.7.2
+// Generated from D:/DLSU/TERM 2 2018-2019/CMPILER/PascalMP\PascalGrammar.g4 by ANTLR 4.7.2
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
@@ -562,6 +562,18 @@ public class PascalGrammarBaseListener implements PascalGrammarListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitVariableDeclaration(PascalGrammarParser.VariableDeclarationContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterVarIdentifierList(PascalGrammarParser.VarIdentifierListContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitVarIdentifierList(PascalGrammarParser.VarIdentifierListContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *

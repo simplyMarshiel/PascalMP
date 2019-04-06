@@ -1,4 +1,4 @@
-// Generated from D:/DLSU/TERM 2 2018-2019/CMPILER/MP\PascalGrammar.g4 by ANTLR 4.7.2
+// Generated from D:/DLSU/TERM 2 2018-2019/CMPILER/PascalMP\PascalGrammar.g4 by ANTLR 4.7.2
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -466,6 +466,16 @@ public interface PascalGrammarListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitVariableDeclaration(PascalGrammarParser.VariableDeclarationContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link PascalGrammarParser#varIdentifierList}.
+	 * @param ctx the parse tree
+	 */
+	void enterVarIdentifierList(PascalGrammarParser.VarIdentifierListContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link PascalGrammarParser#varIdentifierList}.
+	 * @param ctx the parse tree
+	 */
+	void exitVarIdentifierList(PascalGrammarParser.VarIdentifierListContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link PascalGrammarParser#procedureAndFunctionDeclarationPart}.
 	 * @param ctx the parse tree

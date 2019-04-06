@@ -218,7 +218,11 @@ variableDeclarationPart
    ;
 
 variableDeclaration
-   : identifierList COLON type
+   : varIdentifierList COLON type
+   ;
+
+varIdentifierList
+   : identifier (COMMA identifier)*
    ;
 
 procedureAndFunctionDeclarationPart
@@ -994,7 +998,6 @@ STRING_LITERAL
    : '\'' ('\'\'' | ~ ('\''))* '\''
    ;
 
-
 NUM_INT
    : ('0' .. '9') +
    ;
@@ -1008,4 +1011,4 @@ NUM_REAL
 
 fragment EXPONENT
    : ('e') ('+' | '-')? ('0' .. '9') +
-;
+   ;
